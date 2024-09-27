@@ -1,0 +1,102 @@
+body {
+    color:#282425;
+    background-color: #fff1e6;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+a {
+    color:#756158;
+    font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}  
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 7);
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 0; 
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.profil p {
+    text-align: justify;
+}
+
+
+.profil,
+.vzdelani,
+.dovednosti {
+    background-color: #f9e3d0;
+}
+
+.paticka {
+    background-color: #282425;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.foto-profil {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.hlavicka {
+    background-color: #f9e3d0;
+}
+
+.menu {
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color:#282425;
+    
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #756158;
+}
